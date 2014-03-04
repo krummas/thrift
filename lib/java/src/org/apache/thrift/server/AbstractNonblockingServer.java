@@ -270,7 +270,7 @@ public abstract class AbstractNonblockingServer extends TServer {
     private final Logger LOGGER = LoggerFactory.getLogger(getClass().getName());
 
     // the actual transport hooked up to the client.
-    protected final TNonblockingTransport trans_;
+    public final TNonblockingTransport trans_;
 
     // the SelectionKey that corresponds to our transport
     protected final SelectionKey selectionKey_;
